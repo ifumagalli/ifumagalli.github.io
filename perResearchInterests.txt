@@ -1,0 +1,13 @@
+I am deeply interested in the study of fluid dynamics, both from a computational perspective and concerning the modeling of fluids and their boundary conditions, and their approximatin by means of numerical schemes. 
+I have been particularly captured by free boundary problems, and by the theoretical, numerical and computational issues entailed by the presence of a moving interface between the fixed part of the boundary and the free part.
+In general, I am interested in the numerical analysis and optimal control of partial differential equations.
+In this regard, I am interested in designing and developing novel and original schemes, techniques and metods to address the issues that the differential system under inspection makes arise.
+I think that one of the most interesting and challenging aspects of doing research in applied mathematics is that one can address real-life applications.
+Indeed, real problems can be tackled by many different viewpoints, in order to answer to different issues related to modeling, theoretical well-posedness, numerical stability, reliability of simulations, efficiency of the simulators, control questions.
+In this regard, the range of possible answers that can be given can include refined mathematical tools, and   
+
+I am interested in the numerical analysis and optimal control of industrial and real-life applications.
+In particular, I am INTERESTED in free boundary problems (in fluid dynamics, but not exclusively) and in the treatment of moving contact lines.
+Studying this kind of problems, I have been intrigued by all the levels of the mathematical description of the phenomenon, ranging from modeling and theoretical analysis, to numerical approximation by means of the finite element method, and to the actual simulation of the physical system.
+Concerning optimal control, I am particularly CAPTURED by shape optimization and other control problems involving geometry displacements.
+Since a reliable and effective approximation of many problems entailed in REAL-LIFE applications present a large number of degrees of freedom, computational efficiency cannot be neglected, and thus I have been studying the reduced basis method, and I am interested in model order reduction.

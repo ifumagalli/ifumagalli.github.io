@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<style>
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+//    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 100%;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+</style>
+<html>
+<title>Ivan Fumagalli</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="mycss.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+li:not(:last-child) {margin-bottom: 8px}
+</style>
+<body class="w3-light-grey">
+
+<!-- Page Container //-->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid //-->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column //-->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <div class="w3-row">
+          <img src="https://www.mate.polimi.it/servizi/webspace/img/481_49.jpg" class="w3-image" style="width:45%" alt="Avatar">
+          <div class="w3-col" style="width:2em"></div>
+          <div class="w3-display-bottomright w3-container w3-text-black">
+            <h2>Ivan Fumagalli</h2>
+            <p>Ph.D.</p>
+<!--            <p>PhD Candidate</p> -->
+          </div>
+          </div>
+        </div>
+        <div class="w3-container">
+          <ul class="w3-ul">
+            <li class="w3-padding-16">
+<!--
+              <span onclick="this.parentElement.style.display='none'" 
+                class="w3-button w3-white w3-xlarge w3-right">×</span>
+              <img src="img_avatar2.png" class="w3-left w3-circle w3-margin-right" style="width:50px">
+              <span class="w3-large">Mike</span><br>
+              <span>Web Designer</span>
+//-->
+              
+            </li>
+          </ul>
+<!--
+          <div class="w3-row">
+            <div class="w3-col" style="width:50px">
+              <p class="w3-text-teal"><i class="fa fa-briefcase w3-large"></i></p>
+            </div><div class="w3-rest">
+              <p>MOXOFF S.p.A.<br>
+                 Via Giovanni Durando, 38/A,<br>
+                 20158 Milano, Italy
+              </p>
+            </div>
+          </div>
+//-->
+          <div class="w3-row">
+            <div class="w3-col" style="width:50px">
+              <p class="w3-text-teal"><i class="fa fa-university w3-large"></i></p>
+            </div><div class="w3-rest">
+              <p>MOX Laboratory - Department of Mathematics<br>
+                 Politecnico di Milano<br>
+                 Piazza Leonardo da Vinci, 32,<br>
+                 20133 Milano, Italy<br>
+                 (<a href="https://www.mate.polimi.it/pagina-personale/?id=611&lg=en#ann">Personal page</a> in the Department website)
+              </p>
+            </div>
+          </div>
+          <div class="w3-row">
+            <div class="w3-col" style="width:50px">
+              <p class="w3-text-teal"><i class="fa fa-phone w3-large"></i></p>
+            </div><div class="w3-rest">
+<!--              <p>+39 02 2399 2964</p>   -->
+              <p>+39 02 2399 4699</p>
+              <!-- <p>+39 02 2399 4604</p> //-->
+            </div>
+          </div>
+          <div class="w3-row">
+            <div class="w3-col" style="width:50px">
+              <p class="w3-text-teal"><i class="fa fa-envelope w3-large"></i></p>
+            </div><div class="w3-rest">
+<!--              <p>ivan.fumagalli AT moxoff.com<br>   --> <p>
+              ivan.fumagalli AT polimi.it</p>
+            </div>
+          </div>
+          <div class="w3-row">
+            <div class="w3-col" style="width:50px">
+              <p><a href="http://linkedin.com/in/ivan-fumagalli-b9b9b087"><i class="fa fa-linkedin-square w3-large w3-text-teal"></i></a></p>
+            </div><div class="w3-rest">
+              <p><a href="http://linkedin.com/in/ivan-fumagalli-b9b9b087">linkedin.com/in/ivan-fumagalli-b9b9b087</a></p>
+            </div>
+          </div>
+          <div class="w3-row">
+            <div class="w3-col" style="width:50px">
+              <p><a href="http://www.researchgate.net/profile/Ivan_Fumagalli2"><i><img src="rg_logos/RG_square_green.png" style="width:50%"></i></a></p>
+            </div><div class="w3-rest">
+              <p><a href="http://www.researchgate.net/profile/Ivan_Fumagalli2">researchgate.net/profile/Ivan_Fumagalli2</a></p>
+            </div>
+          </div>
+<!--          <hr>   //-->
+
+<!--          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>Adobe Photoshop</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p>Photography</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <p>Illustrator</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+          </div>
+          <p>Media</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+          <br>
+//-->
+
+<!--
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>Italian</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:95%"></div>
+          </div>
+          <p>French</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:40%"></div>
+          </div>
+          <p>German</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:15%"></div>
+          </div>
+//-->
+
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column //-->
+    </div>
+
+    <!-- Right Column //-->
+    <div class="w3-twothird">
+    
+      <!-- Fixed navigation bar //-->
+      <div class="w3-top">
+        <div class="w3-bar w3-border w3-light-grey w3-center">
+          <div class="w3-row">
+          <a href="index.html" class="w3-bar-item w3-button w3-mobile">Home</a>
+          <a href="publications.html" class="w3-bar-item w3-button w3-mobile">Publications</a>
+<!--          <a href="CV.html" class="w3-bar-item w3-button w3-mobile">CV</a>  //-->
+<!--          <a href="CV.pdf" class="w3-bar-item w3-button w3-mobile">CV (PDF)</a>  //-->
+          <a href="TODO.html" class="w3-bar-item w3-button w3-mobile">CV (PDF)</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Publication list //-->    
+      <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+        <div class="w3-panel w3-padding">
+        <h3 class="w3-text-grey"><i class="fa fa-play fa-fw w3-xlarge w3-text-teal"></i>Gallery</h3>
+          <div class="w3-col" style="width:400px">
+          <video width="198" controls autoplay loop>
+            <source src="SAMuVolbgNero.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <video width="198" controls autoplay loop>
+            <source src="SAMQcritbgNero.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          </div>
+          <div class="w3-col" style="width:12pt">
+            &nbsp;
+          </div>
+          <div class="w3-rest">
+          <p>Fluid dynamics in the left ventricle and aorta of an HCM-SAM patient [6]<br><br>
+            in purple: anterior leaflet of the mitral valve<br>
+            left:   blood velocity<br>
+            right:  Q-criterion iso-surfaces<br>
+          </p>
+          </div>
+        </div>
+
+        <div class="w3-panel w3-padding">
+          <div class="w3-col" style="width:400px">
+          <video width="400" controls autoplay loop>
+            <source src="P1longBeta100Gamma025.mp4" type="video/mp4">
+<!--            <source src="movie.ogg" type="video/ogg">  //-->
+            Your browser does not support the video tag.
+          </video>
+          </div>
+          <div class="w3-col" style="width:12pt">
+            &nbsp;
+          </div>
+          <div class="w3-rest">
+          <p>Simulation of an axial symmetric capillary rise [2]</p>
+          </div>
+        </div>
+
+        <div class="w3-panel w3-padding">
+          <div class="w3-col" style="width:400px">
+          <video width="400px" controls autoplay loop>
+            <source src="spuriousOscillations.mp4" type="video/mp4">
+<!--            <source src="movie.ogg" type="video/ogg">  //-->
+            Your browser does not support the video tag.
+          </video>
+          </div>
+          <div class="w3-col" style="width:12pt">
+            &nbsp;
+          </div>
+          <div class="w3-rest">
+          <p>Effectiveness of the stabilization proposed in [2]<br><br>
+            left:   non-stabilized, time step = 2E-5 s<br>
+            center: non-stabilized, time step = 4E-5 s<br>
+            right:  stabilized, time step = 2E-3 s<br>
+          </p>
+          </div>
+        </div>
+
+        <hr>
+        
+      <!-- Actual publication list //-->    
+        <div class="w3-panel w3-padding-large">
+        <h3 class="w3-text-grey"><i class="fa fa-folder-o fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Publications</h3>
+<a href="https://scholar.google.it/citations?user=uY2yg6UAAAAJ&hl=it&oi=ao">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" class="w3-image" style="height:12pt">Google Scholar</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://orcid.org/0000-0001-9256-1398">
+            <img src="https://info.orcid.org/wp-content/uploads/2020/12/orcid_16x16.gif" class="w3-image" style="height:12pt">ORCID</a>
+        <ol prefix="[" suffix="]" reversed style="left-padding:5em">
+        <!-- <ol class="w3-ul"> //-->
+          <li style="margin-bottom:5px">
+              L. Bennati, C. Vergara, V. Giambruno, I. Fumagalli, A.F. Corno, A. Quarteroni, G. Puppini, G.B. Luciani.
+                <em>An image-based computational fluid dynamics study of mitral regurgitation in presence of prolapse.</em>
+                Cardiovascular Engineering and Technology, accepted (2023).
+                (preprint: MOX report 18/2022
+                <a href="https://mox.polimi.it/reports-and-theses/publication-results/?id=1049" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>)
+          </li>
+          <li>
+              M. Bucelli, A. Zingaro, P.A. Africa, I. Fumagalli, L. Dede', A. Quarteroni.
+                <em>A mathematical model that integrates cardiac electrophysiology, mechanics and fluid dynamics: application to the human left heart.</em>
+                International Journal for Numerical Methods in Biomedical Engineering, 39(3):e3678 (2023).
+                <a href="https://doi.org/10.1002/cnm.3678" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>
+                <!-- (arXiv:2208.05551 [math.NA]
+                    <a href="https://doi.org/10.48550/arXiv.2208.05551" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>) //-->
+          </li>
+          <li>
+              F. Marcinnò, A. Zingaro, I. Fumagalli, L. Dede', C. Vergara.
+                <em>A computational study of blood flow dynamics in the pulmonary arteries</em>,
+                Vietnam Journal of Mathematics, 51:127-149 (2023).
+                <a href="https://doi.org/10.1007/s10013-022-00595-y" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>
+                <!-- (MOX Report 73/2021 <a href="https://mox.polimi.it/reports-and-theses/publication-results/?id=1012" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>) //-->
+          </li>
+          <li>
+              A. Zingaro, I. Fumagalli, L. Dede', M. Fedele, P. C. Africa, A. F. Corno, A. Quarteroni.
+                <em>A geometric multiscale model for the numerical simulation of blood flow in the human left heart</em>, Discrete & Continuous Dynamical Systems - Series S, 15(8):2391-2427 (2022).
+                <a href="http://dx.doi.org/10.3934/dcdss.2022052" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>
+                <!-- <a href="https://www.aimsciences.org/article/doi/10.3934/dcdss.2022052" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>  //-->
+          </li><li>
+              I. Fumagalli, P. Vitullo, C. Vergara, M. Fedele, A. F. Corno, S. Ippolito, R. Scrofani, A. Quarteroni.
+                <em>Image-based computational hemodynamics analysis of systolic obstruction in hypertrophic cardiomyopathy</em>, Frontiers in Physiology, 12:787082 (2022).
+                <a href="https://doi.org/10.3389/fphys.2021.787082" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>
+                <!-- (preprint: medRxiv 2021.06.02.21258207
+                <a href="https://doi.org/10.1101/2021.06.02.21258207" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>) //-->
+          </li><li>
+              I. Fumagalli, M. Fedele, C. Vergara, L. Dede', S. Ippolito, F. Nicolò, C. Antona, R. Scrofani, A. Quarteroni.
+                <em>An image-based computational hemodynamics study of the Systolic Anterior Motion of the mitral valve</em>,
+                Computers in Biology and Medicine, 123 (2020): 103922. <a href="https://doi.org/10.1016/j.compbiomed.2020.103922" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>
+              <!-- I. Fumagalli, M. Fedele, C. Vergara, L. Dede', S. Ippolito, F. Nicolò, C. Antona, R. Scrofani, A. Quarteroni <em>An Image-based Computational Hemodynamics Study of the Systolic Anterior Motion of the Mitral Valve</em>, submitted (MOX-Preprint 15/2020 <a href="https://mox.polimi.it/publication-results/?id=857&tipo=add_qmox" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>) //-->
+          </li><li>
+            I. Fumagalli, N. Parolini, M. Verani.
+                <em>Optimal control in ink-jet printing via instantaneous control</em>, Computers and Fluids, 172 (2018): 264-273. <a href="https://doi.org/10.1016/j.compfluid.2018.05.021" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>
+              <!-- I. Fumagalli, N. Parolini, M. Verani <em>Optimal control in ink-jet printing via instantaneous control</em>, Computers and Fluids (2018), in press. <a href="https://doi.org/10.1016/j.compfluid.2018.05.021" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a> //-->
+              <!-- (MOX-Preprint 64/2017 <a href="https://mox.polimi.it/publication-results/?id=712&tipo=add_qmox" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>) //-->
+          </li><li><!-- <li><a href="https://mox.polimi.it/publication-results/?id=649&tipo=add_qmox" target="_blank"><i class="fa fa-file-o fa-fw w3-margin-right w3-text-teal"></i></a> //-->
+              I. Fumagalli.
+                <em>A free-boundary problem with moving contact points</em>, MOX-Report 33/2017. <a href="https://mox.polimi.it/publication-results/?id=680&tipo=add_qmox" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>
+              <!-- I. Fumagalli, <em>A free-boundary problem with moving contact points</em>, submitted (MOX-Preprint 33/2017 <a href="https://mox.polimi.it/publication-results/?id=680&tipo=add_qmox" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>) //-->
+          </li><li><!-- <li><a href="https://mox.polimi.it/publication-results/?id=649&tipo=add_qmox" target="_blank"><i class="fa fa-file-o fa-fw w3-margin-right w3-text-teal"></i></a> //-->
+              <!-- I. Fumagalli, N. Parolini and M. Verani, <em>On a free-surface problem with moving contact line: from variational principles to stable numerical approximations</em>, Journal of Computational Physics, 355C (2018): 253-284. <a href="https://authors.elsevier.com/a/1WD4K508Haf6U" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a> -->
+              I. Fumagalli, N. Parolini, M. Verani.
+                <em>On a free-surface problem with moving contact line: from variational principles to stable numerical approximations</em>, Journal of Computational Physics, 355 (2018): 253-284. <a href="https://doi.org/10.1016/j.jcp.2017.11.004" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>
+          </li><li><!-- <a href="http://https://doi.org/10.1016/j.jcp.2017.11.004" target="_blank"><i class="fa fa-file-o fa-fw w3-margin-right w3-text-teal"></i></a> //-->
+          <!-- <a href="https://mox.polimi.it/publication-results/?id=649&tipo=add_qmox" target="_blank"><i class="fa fa-file-o fa-fw w3-margin-right w3-text-teal"></i></a> //-->
+              I. Fumagalli, A. Manzoni, N. Parolini, M. Verani.
+                <em>Reduced basis approximation and a posteriori error estimates for parametrized elliptic eigenvalue problems</em>, ESAIM: Mathematical Modelling and Numerical Analysis, 50 (2016) no. 6: 1857-1885. <a href="http://dx.doi.org/10.1051/m2an/2016009" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>
+          </li><li><!-- <a href="http://dx.doi.org/10.1051/m2an/2014060" target="_blank"><i class="fa fa-file-o fa-fw w3-margin-right w3-text-teal"></i></a> //-->
+              I. Fumagalli, N. Parolini, M. Verani.
+                <em>Shape Optimization for Stokes flows: a finite element convergence analysis</em>, ESAIM: Mathematical Modelling and Numerical Analysis (M2AN), 49 (2015), no.4, 921-951. <a href="https://doi.org/10.1051/m2an/2014060" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a> (poster <a href="https://www.mate.polimi.it/servizi/webspace/pp/481/ShOpt_Poster.pdf"><i class="fa fa-file-pdf-o fa-fw w3-text-teal"></i></a>)
+          </li>
+        </ol>
+        </div>
+<!---        <div class="w3-panel w3-padding-large">
+        <h3 class="w3-text-grey"><i class="fa fa-paper-plane-o fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Poster</h2>
+        <ul class="w3-ul">
+          <li><a href="https://www.mate.polimi.it/servizi/webspace/pp/481/ShOpt_Poster.pdf"><i class="fa fa-file-pdf-o fa-fw w3-margin-right w3-text-teal"></i></a>
+            shape opt
+          </li>
+        </ul>
+        </div>
+-->
+
+
+        <div class="w3-panel w3-padding-large">
+        <h3 class="w3-text-grey"><i class="fa fa-folder-o fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Submitted to international journals</h3>
+        <h4 class="w3-text-grey"><i class="fa fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>(with corresponding technical report/preprint)</h4>
+        <ul class="w3-ul">
+        <!-- <ol prefix="[" suffix="]" reversed style="left-padding:5em">
+        -->
+          <li>
+              I. Fumagalli, L. Dede', A. Quarteroni.
+                <em>A reduced 3D-0D fluid structure interaction model of the aortic valve that includes leaflets curvature.</em>
+                (MOX Report 30/2021
+                <a href="https://mox.polimi.it/reports-and-books/publication-results/?id=962" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>)
+          </li>
+<!--          <li>
+              L. Bennati, C. Vergara, V. Giambruno, I. Fumagalli, A.F. Corno, A. Quarteroni, G. Puppini, G.B. Luciani.
+                <em>An image-based computational fluid dynamics study of mitral regurgitation in presence of prolapse.</em>
+                (MOX report 18/2022
+                <a href="https://mox.polimi.it/reports-and-theses/publication-results/?id=1049" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>)
+          </li>
+//-->
+          <li>
+              I. Fumagalli, R. Polidori, F. Renzi, L. Fusini, A. Quarteroni, G. Pontone, C. Vergara.
+                <em>Fluid-structure interaction analysis of transcatheter aortic valve implantation.</em>
+                (MOX Report 29/2022
+                <a href="https://mox.polimi.it/reports-and-theses/publication-results/?id=1060" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>)
+          </li>
+          <li>
+              I. Fumagalli, C. Vergara.
+                <em>Novel approaches for the numerical solution of fluid-structure interaction in the aorta.</em>
+                (MOX Report 05/2023
+                <a href="https://mox.polimi.it/reports-and-theses/publication-results/?id=1120 target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>)
+          </li>
+          <li>
+              A. Zingaro, M. Bucelli, I. Fumagalli, L. Dede', A. Quarteroni.
+                <em>Modeling isovolumetric phases in cardiac flows by an Augmented Resistive Immersed Implicit Surface Method.</em>
+                (arXiv:2208.09435 [math.NA]
+                <a href="https://doi.org/10.48550/arXiv.2208.09435" target="_blank"><i class="fa fa-external-link fa-fw w3-text-teal"></i></a>)
+          </li>
+        </ul>
+        </div>
+
+        <div class="w3-panel w3-padding-large">
+        <h3 class="w3-text-grey"><i class="fa fa-book fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Theses</h3>
+        <ul class="w3-ul">
+          <li><!-- <a href="https://www.politesi.polimi.it/handle/10589/88542?locale=en" target="_blank"> //-->
+<!-- <div class="tooltip">
+  <span class="tooltiptext">To appear</span>
+            <i class="fa fa-file-o fa-fw w3-margin-right w3-text-teal"></i></a>
+            Ph.D. - <em>Numerical approximation and optimal control of free surface problems with moving contact line</em>
+</div>
+//-->
+          <a href="http://hdl.handle.net/10589/134584" target="_blank"><i class="fa fa-external-link fa-fw w3-margin-right w3-text-teal"></i></a>
+            Ph.D. - <em>Numerical approximation and optimal control of free surface problems with moving contact line</em>
+          </li><li><a href="https://www.politesi.polimi.it/handle/10589/88542?locale=en" target="_blank"><i class="fa fa-external-link fa-fw w3-margin-right w3-text-teal"></i></a>
+            M.Sc. - <em>Shape optimization for Stokes flows: a reference domain approach</em>
+          </li><li><a href="https://www.mate.polimi.it/biblioteca/?pp=view&id=410&collezione=tesi&L=e" target="_blank"><i class="fa fa-external-link fa-fw w3-margin-right w3-text-teal"></i></a>
+            B.Sc. - <em>Test a priori di modelli LES per la turbolenza omogenea e isotropa</em><br><span style="display:inline-block; width: 5.6em;"></span>(A priori tests on LES models for homogeneous and isotropic turbulence)
+          </li>
+        </ul>
+        </div>
+        
+      </div>
+
+    <!-- End Right Column //-->
+    </div>
+    
+  <!-- End Grid //-->
+  </div>
+  
+  <!-- End Page Container //-->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+<!--  <p>Find me on social media.</p>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <a href="http://linkedin.com/in/ivan-fumagalli-b9b9b087"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+//-->
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
+</html>
+

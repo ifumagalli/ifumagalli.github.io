@@ -1,0 +1,14 @@
+h6 {
+    line-height: 8px;  /* to avoid blank lines between, e.g., "MSc..." and "at Poli..." */
+}
+
+i {
+    vertical-align: middle;
+}
+
+.mycenter {
+    margin: auto;
+    width: 60%;
+/*    border: 3px solid #73AD21; */
+    padding: 10px;
+}
